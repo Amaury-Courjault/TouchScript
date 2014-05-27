@@ -9,6 +9,7 @@
   <HelpKINode Title="AddLayer method" Url="html/Overload_TouchScript_ITouchManager_AddLayer.htm" />
   <HelpKINode Title="AddPoint method" Url="html/M_TouchScript_Clusters_Clusters_AddPoint.htm" />
   <HelpKINode Title="AddPoints method" Url="html/M_TouchScript_Clusters_Clusters_AddPoints.htm" />
+  <HelpKINode Title="AddTag method" Url="html/M_TouchScript_Tags_AddTag.htm" />
   <HelpKINode Title="Any enumeration member" Url="html/T_TouchScript_Gestures_FlickGesture_GestureDirection.htm" />
   <HelpKINode Title="Awake method">
     <HelpKINode Title="Gesture.Awake Method " Url="html/M_TouchScript_Gestures_Gesture_Awake.htm" />
@@ -18,12 +19,12 @@
   <HelpKINode Title="Background enumeration member" Url="html/T_TouchScript_Behaviors_FullscreenTarget_TargetType.htm" />
   <HelpKINode Title="Began enumeration member" Url="html/T_TouchScript_Gestures_Gesture_GestureState.htm" />
   <HelpKINode Title="beginTouch method">
-    <HelpKINode Title="InputSource.beginTouch Method " Url="html/M_TouchScript_InputSources_InputSource_beginTouch.htm" />
-    <HelpKINode Title="InputSourcePro.beginTouch Method " Url="html/M_TouchScript_InputSources_InputSourcePro_beginTouch.htm" />
-    <HelpKINode Title="InputSourceWindows.beginTouch Method " Url="html/M_TouchScript_InputSources_InputSourceWindows_beginTouch.htm" />
+    <HelpKINode Title="InputSource.beginTouch Method " Url="html/Overload_TouchScript_InputSources_InputSource_beginTouch.htm" />
+    <HelpKINode Title="MobileInput.beginTouch Method " Url="html/Overload_TouchScript_InputSources_MobileInput_beginTouch.htm" />
     <HelpKINode Title="TouchLayer.beginTouch Method " Url="html/M_TouchScript_Layers_TouchLayer_beginTouch.htm" />
+    <HelpKINode Title="MouseInput.beginTouch Method " Url="html/Overload_TouchScript_InputSources_MouseInput_beginTouch.htm" />
   </HelpKINode>
-  <HelpKINode Title="BeginTouch method" Url="html/M_TouchScript_ITouchManager_BeginTouch.htm" />
+  <HelpKINode Title="BeginTouch method" Url="html/Overload_TouchScript_ITouchManager_BeginTouch.htm" />
   <HelpKINode Title="Camera enumeration member" Url="html/T_TouchScript_Gestures_Simple_Transform2DGestureBase_ProjectionType.htm" />
   <HelpKINode Title="Camera property">
     <HelpKINode Title="CameraLayerBase.Camera Property " Url="html/P_TouchScript_Layers_CameraLayerBase_Camera.htm" />
@@ -75,8 +76,6 @@
   <HelpKINode Title="Cancelled enumeration member" Url="html/T_TouchScript_Gestures_Gesture_GestureState.htm" />
   <HelpKINode Title="cancelTouch method">
     <HelpKINode Title="InputSource.cancelTouch Method " Url="html/M_TouchScript_InputSources_InputSource_cancelTouch.htm" />
-    <HelpKINode Title="InputSourcePro.cancelTouch Method " Url="html/M_TouchScript_InputSources_InputSourcePro_cancelTouch.htm" />
-    <HelpKINode Title="InputSourceWindows.cancelTouch Method " Url="html/M_TouchScript_InputSources_InputSourceWindows_cancelTouch.htm" />
     <HelpKINode Title="TouchLayer.cancelTouch Method " Url="html/M_TouchScript_Layers_TouchLayer_cancelTouch.htm" />
   </HelpKINode>
   <HelpKINode Title="CancelTouch method" Url="html/M_TouchScript_ITouchManager_CancelTouch.htm" />
@@ -136,10 +135,8 @@
   <HelpKINode Title="CoordinatesRemapper property">
     <HelpKINode Title="IInputSource.CoordinatesRemapper Property " Url="html/P_TouchScript_InputSources_IInputSource_CoordinatesRemapper.htm" />
     <HelpKINode Title="InputSource.CoordinatesRemapper Property " Url="html/P_TouchScript_InputSources_InputSource_CoordinatesRemapper.htm" />
-    <HelpKINode Title="InputSourcePro.CoordinatesRemapper Property " Url="html/P_TouchScript_InputSources_InputSourcePro_CoordinatesRemapper.htm" />
-    <HelpKINode Title="InputSourceWindows.CoordinatesRemapper Property " Url="html/P_TouchScript_InputSources_InputSourceWindows_CoordinatesRemapper.htm" />
   </HelpKINode>
-  <HelpKINode Title="CurrentResolution property" Url="html/P_TouchScript_WindowsPhone_WP8Utils_CurrentResolution.htm" />
+  <HelpKINode Title="Count property" Url="html/P_TouchScript_Tags_Count.htm" />
   <HelpKINode Title="Delegate property" Url="html/P_TouchScript_Gestures_Gesture_Delegate.htm" />
   <HelpKINode Title="DeltaRotation property" Url="html/P_TouchScript_Gestures_Simple_SimpleRotateGesture_DeltaRotation.htm" />
   <HelpKINode Title="Direction property" Url="html/P_TouchScript_Gestures_FlickGesture_Direction.htm" />
@@ -150,57 +147,29 @@
   <HelpKINode Title="DiscardTouch field" Url="html/F_TouchScript_Hit_Untouchable_DiscardTouch.htm" />
   <HelpKINode Title="DisplayDevice class">
     <HelpKINode Title="DisplayDevice Class" Url="html/T_TouchScript_Devices_Display_DisplayDevice.htm" />
-    <HelpKINode Title="DisplayDevice Class" Url="html/T_TouchScript_WindowsPhone_Devices_Display_DisplayDevice.htm" />
-    <HelpKINode Title="about DisplayDevice class" Url="html/T_TouchScript_WindowsPhone_Devices_Display_DisplayDevice.htm" />
     <HelpKINode Title="about DisplayDevice class" Url="html/T_TouchScript_Devices_Display_DisplayDevice.htm" />
     <HelpKINode Title="constructor" Url="html/M_TouchScript_Devices_Display_DisplayDevice__ctor.htm" />
-    <HelpKINode Title="constructor" Url="html/M_TouchScript_WindowsPhone_Devices_Display_DisplayDevice__ctor.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_TouchScript_Devices_Display_DisplayDevice.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_TouchScript_WindowsPhone_Devices_Display_DisplayDevice.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_TouchScript_WindowsPhone_Devices_Display_DisplayDevice.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_TouchScript_Devices_Display_DisplayDevice.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_TouchScript_WindowsPhone_Devices_Display_DisplayDevice.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_TouchScript_Devices_Display_DisplayDevice.htm" />
   </HelpKINode>
   <HelpKINode Title="DisplayDevice property">
     <HelpKINode Title="ITouchManager.DisplayDevice Property " Url="html/P_TouchScript_ITouchManager_DisplayDevice.htm" />
     <HelpKINode Title="TouchManager.DisplayDevice Property " Url="html/P_TouchScript_TouchManager_DisplayDevice.htm" />
   </HelpKINode>
-  <HelpKINode Title="DisplayDevice.DisplayDevice constructor">
-    <HelpKINode Title="DisplayDevice Constructor " Url="html/M_TouchScript_WindowsPhone_Devices_Display_DisplayDevice__ctor.htm" />
-    <HelpKINode Title="DisplayDevice Constructor " Url="html/M_TouchScript_Devices_Display_DisplayDevice__ctor.htm" />
-  </HelpKINode>
-  <HelpKINode Title="DisplayDevice.dpi field">
-    <HelpKINode Title="DisplayDevice.dpi Field" Url="html/F_TouchScript_Devices_Display_DisplayDevice_dpi.htm" />
-    <HelpKINode Title="DisplayDevice.dpi Field" Url="html/F_TouchScript_WindowsPhone_Devices_Display_DisplayDevice_dpi.htm" />
-  </HelpKINode>
-  <HelpKINode Title="DisplayDevice.DPI property">
-    <HelpKINode Title="DisplayDevice.DPI Property " Url="html/P_TouchScript_WindowsPhone_Devices_Display_DisplayDevice_DPI.htm" />
-    <HelpKINode Title="DisplayDevice.DPI Property " Url="html/P_TouchScript_Devices_Display_DisplayDevice_DPI.htm" />
-  </HelpKINode>
-  <HelpKINode Title="DisplayDevice.name field">
-    <HelpKINode Title="DisplayDevice.name Field" Url="html/F_TouchScript_Devices_Display_DisplayDevice_name.htm" />
-    <HelpKINode Title="DisplayDevice.name Field" Url="html/F_TouchScript_WindowsPhone_Devices_Display_DisplayDevice_name.htm" />
-  </HelpKINode>
-  <HelpKINode Title="DisplayDevice.Name property">
-    <HelpKINode Title="DisplayDevice.Name Property " Url="html/P_TouchScript_Devices_Display_DisplayDevice_Name.htm" />
-    <HelpKINode Title="DisplayDevice.Name Property " Url="html/P_TouchScript_WindowsPhone_Devices_Display_DisplayDevice_Name.htm" />
-  </HelpKINode>
-  <HelpKINode Title="DisplayDevice.OnEnable method">
-    <HelpKINode Title="DisplayDevice.OnEnable Method " Url="html/M_TouchScript_Devices_Display_DisplayDevice_OnEnable.htm" />
-    <HelpKINode Title="DisplayDevice.OnEnable Method " Url="html/M_TouchScript_WindowsPhone_Devices_Display_DisplayDevice_OnEnable.htm" />
-  </HelpKINode>
+  <HelpKINode Title="DisplayDevice.DisplayDevice constructor" Url="html/M_TouchScript_Devices_Display_DisplayDevice__ctor.htm" />
+  <HelpKINode Title="DisplayDevice.dpi field" Url="html/F_TouchScript_Devices_Display_DisplayDevice_dpi.htm" />
+  <HelpKINode Title="DisplayDevice.DPI property" Url="html/P_TouchScript_Devices_Display_DisplayDevice_DPI.htm" />
+  <HelpKINode Title="DisplayDevice.name field" Url="html/F_TouchScript_Devices_Display_DisplayDevice_name.htm" />
+  <HelpKINode Title="DisplayDevice.Name property" Url="html/P_TouchScript_Devices_Display_DisplayDevice_Name.htm" />
+  <HelpKINode Title="DisplayDevice.OnEnable method" Url="html/M_TouchScript_Devices_Display_DisplayDevice_OnEnable.htm" />
   <HelpKINode Title="DistanceLimit property">
     <HelpKINode Title="LongPressGesture.DistanceLimit Property " Url="html/P_TouchScript_Gestures_LongPressGesture_DistanceLimit.htm" />
     <HelpKINode Title="TapGesture.DistanceLimit Property " Url="html/P_TouchScript_Gestures_TapGesture_DistanceLimit.htm" />
   </HelpKINode>
   <HelpKINode Title="DotsPerCentimeter property" Url="html/P_TouchScript_ITouchManager_DotsPerCentimeter.htm" />
-  <HelpKINode Title="dpi field">
-    <HelpKINode Title="DisplayDevice.dpi Field" Url="html/F_TouchScript_Devices_Display_DisplayDevice_dpi.htm" />
-    <HelpKINode Title="DisplayDevice.dpi Field" Url="html/F_TouchScript_WindowsPhone_Devices_Display_DisplayDevice_dpi.htm" />
-  </HelpKINode>
+  <HelpKINode Title="dpi field" Url="html/F_TouchScript_Devices_Display_DisplayDevice_dpi.htm" />
   <HelpKINode Title="DPI property">
-    <HelpKINode Title="DisplayDevice.DPI Property " Url="html/P_TouchScript_WindowsPhone_Devices_Display_DisplayDevice_DPI.htm" />
     <HelpKINode Title="DisplayDevice.DPI Property " Url="html/P_TouchScript_Devices_Display_DisplayDevice_DPI.htm" />
     <HelpKINode Title="IDisplayDevice.DPI Property " Url="html/P_TouchScript_Devices_Display_IDisplayDevice_DPI.htm" />
     <HelpKINode Title="ITouchManager.DPI Property " Url="html/P_TouchScript_ITouchManager_DPI.htm" />
@@ -209,8 +178,6 @@
   <HelpKINode Title="EndTouch method" Url="html/M_TouchScript_ITouchManager_EndTouch.htm" />
   <HelpKINode Title="endTouch method">
     <HelpKINode Title="InputSource.endTouch Method " Url="html/M_TouchScript_InputSources_InputSource_endTouch.htm" />
-    <HelpKINode Title="InputSourcePro.endTouch Method " Url="html/M_TouchScript_InputSources_InputSourcePro_endTouch.htm" />
-    <HelpKINode Title="InputSourceWindows.endTouch Method " Url="html/M_TouchScript_InputSources_InputSourceWindows_endTouch.htm" />
     <HelpKINode Title="TouchLayer.endTouch Method " Url="html/M_TouchScript_Layers_TouchLayer_endTouch.htm" />
   </HelpKINode>
   <HelpKINode Title="Error enumeration member">
@@ -247,11 +214,24 @@
   <HelpKINode Title="FlickGesture.touchesMoved method" Url="html/M_TouchScript_Gestures_FlickGesture_touchesMoved.htm" />
   <HelpKINode Title="FlickTime property" Url="html/P_TouchScript_Gestures_FlickGesture_FlickTime.htm" />
   <HelpKINode Title="FLICK_MESSAGE field" Url="html/F_TouchScript_Gestures_FlickGesture_FLICK_MESSAGE.htm" />
+  <HelpKINode Title="FontColor property" Url="html/P_TouchScript_Debugging_TouchDebugger_FontColor.htm" />
   <HelpKINode Title="Foreground enumeration member" Url="html/T_TouchScript_Behaviors_FullscreenTarget_TargetType.htm" />
   <HelpKINode Title="FrameFinished enumeration member" Url="html/T_TouchScript_TouchManager_MessageType.htm" />
   <HelpKINode Title="FrameFinished event" Url="html/E_TouchScript_ITouchManager_FrameFinished.htm" />
   <HelpKINode Title="FrameStarted enumeration member" Url="html/T_TouchScript_TouchManager_MessageType.htm" />
   <HelpKINode Title="FrameStarted event" Url="html/E_TouchScript_ITouchManager_FrameStarted.htm" />
+  <HelpKINode Title="FullscreenLayer class">
+    <HelpKINode Title="FullscreenLayer Class" Url="html/T_TouchScript_Layers_FullscreenLayer.htm" />
+    <HelpKINode Title="about FullscreenLayer class" Url="html/T_TouchScript_Layers_FullscreenLayer.htm" />
+    <HelpKINode Title="constructor" Url="html/M_TouchScript_Layers_FullscreenLayer__ctor.htm" />
+    <HelpKINode Title="events" Url="html/Events_T_TouchScript_Layers_FullscreenLayer.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_TouchScript_Layers_FullscreenLayer.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TouchScript_Layers_FullscreenLayer.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_TouchScript_Layers_FullscreenLayer.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FullscreenLayer.FullscreenLayer constructor" Url="html/M_TouchScript_Layers_FullscreenLayer__ctor.htm" />
+  <HelpKINode Title="FullscreenLayer.Hit method" Url="html/M_TouchScript_Layers_FullscreenLayer_Hit.htm" />
+  <HelpKINode Title="FullscreenLayer.setName method" Url="html/M_TouchScript_Layers_FullscreenLayer_setName.htm" />
   <HelpKINode Title="FullscreenTarget class">
     <HelpKINode Title="FullscreenTarget Class" Url="html/T_TouchScript_Behaviors_FullscreenTarget.htm" />
     <HelpKINode Title="about FullscreenTarget class" Url="html/T_TouchScript_Behaviors_FullscreenTarget.htm" />
@@ -296,6 +276,7 @@
   <HelpKINode Title="Gesture.GestureState enumeration" Url="html/T_TouchScript_Gestures_Gesture_GestureState.htm" />
   <HelpKINode Title="Gesture.GetTargetHitResult method" Url="html/Overload_TouchScript_Gestures_Gesture_GetTargetHitResult.htm" />
   <HelpKINode Title="Gesture.HasTouch method" Url="html/M_TouchScript_Gestures_Gesture_HasTouch.htm" />
+  <HelpKINode Title="Gesture.IsFriendly method" Url="html/M_TouchScript_Gestures_Gesture_IsFriendly.htm" />
   <HelpKINode Title="Gesture.NormalizedScreenPosition property" Url="html/P_TouchScript_Gestures_Gesture_NormalizedScreenPosition.htm" />
   <HelpKINode Title="Gesture.onBegan method" Url="html/M_TouchScript_Gestures_Gesture_onBegan.htm" />
   <HelpKINode Title="Gesture.onCancelled method" Url="html/M_TouchScript_Gestures_Gesture_onCancelled.htm" />
@@ -340,7 +321,6 @@
   <HelpKINode Title="GestureStateChangeEventArgs.State property" Url="html/P_TouchScript_Gestures_GestureStateChangeEventArgs_State.htm" />
   <HelpKINode Title="Get2DCenterPosition method" Url="html/M_TouchScript_Utils_ClusterUtils_Get2DCenterPosition.htm" />
   <HelpKINode Title="GetCenterPosition method" Url="html/M_TouchScript_Clusters_Clusters_GetCenterPosition.htm" />
-  <HelpKINode Title="GetExtendedScreenInfo method" Url="html/M_TouchScript_WindowsPhone_WP8Utils_GetExtendedScreenInfo.htm" />
   <HelpKINode Title="GetHitTarget method" Url="html/Overload_TouchScript_ITouchManager_GetHitTarget.htm" />
   <HelpKINode Title="getPointPreviousScreenPosition method">
     <HelpKINode Title="RotateGesture.getPointPreviousScreenPosition Method " Url="html/M_TouchScript_Gestures_RotateGesture_getPointPreviousScreenPosition.htm" />
@@ -356,6 +336,7 @@
   <HelpKINode Title="GetPrevious2DCenterPosition method" Url="html/M_TouchScript_Utils_ClusterUtils_GetPrevious2DCenterPosition.htm" />
   <HelpKINode Title="GetPreviousCenterPosition method" Url="html/M_TouchScript_Clusters_Clusters_GetPreviousCenterPosition.htm" />
   <HelpKINode Title="GetTargetHitResult method" Url="html/Overload_TouchScript_Gestures_Gesture_GetTargetHitResult.htm" />
+  <HelpKINode Title="GetTouchHit method" Url="html/Overload_TouchScript_Hit_TouchHitFactory_GetTouchHit.htm" />
   <HelpKINode Title="Global enumeration member" Url="html/T_TouchScript_Gestures_Simple_Transform2DGestureBase_ProjectionType.htm" />
   <HelpKINode Title="gotEnoughTouches method">
     <HelpKINode Title="RotateGesture.gotEnoughTouches Method " Url="html/M_TouchScript_Gestures_RotateGesture_gotEnoughTouches.htm" />
@@ -363,15 +344,15 @@
     <HelpKINode Title="TwoPointTransform2DGestureBase.gotEnoughTouches Method " Url="html/M_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_gotEnoughTouches.htm" />
   </HelpKINode>
   <HelpKINode Title="HasClusters property" Url="html/P_TouchScript_Clusters_Clusters_HasClusters.htm" />
+  <HelpKINode Title="HasTag method" Url="html/M_TouchScript_Tags_HasTag.htm" />
   <HelpKINode Title="HasTouch method" Url="html/M_TouchScript_Gestures_Gesture_HasTouch.htm" />
-  <HelpKINode Title="HD1080p enumeration member" Url="html/T_TouchScript_WindowsPhone_WP8Utils_Resolutions.htm" />
-  <HelpKINode Title="HD720p enumeration member" Url="html/T_TouchScript_WindowsPhone_WP8Utils_Resolutions.htm" />
   <HelpKINode Title="Hit enumeration member">
     <HelpKINode Title="HitTest.ObjectHitResult Enumeration" Url="html/T_TouchScript_Hit_HitTest_ObjectHitResult.htm" />
     <HelpKINode Title="TouchLayer.LayerHitResult Enumeration" Url="html/T_TouchScript_Layers_TouchLayer_LayerHitResult.htm" />
   </HelpKINode>
   <HelpKINode Title="Hit method">
     <HelpKINode Title="CameraLayerBase.Hit Method " Url="html/M_TouchScript_Layers_CameraLayerBase_Hit.htm" />
+    <HelpKINode Title="FullscreenLayer.Hit Method " Url="html/M_TouchScript_Layers_FullscreenLayer_Hit.htm" />
     <HelpKINode Title="TouchLayer.Hit Method " Url="html/M_TouchScript_Layers_TouchLayer_Hit.htm" />
   </HelpKINode>
   <HelpKINode Title="Hit property" Url="html/P_TouchScript_ITouch_Hit.htm" />
@@ -431,7 +412,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_TouchScript_InputSources_InputSource.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_TouchScript_InputSources_InputSource.htm" />
   </HelpKINode>
-  <HelpKINode Title="InputSource.beginTouch method" Url="html/M_TouchScript_InputSources_InputSource_beginTouch.htm" />
+  <HelpKINode Title="InputSource.beginTouch method" Url="html/Overload_TouchScript_InputSources_InputSource_beginTouch.htm" />
   <HelpKINode Title="InputSource.cancelTouch method" Url="html/M_TouchScript_InputSources_InputSource_cancelTouch.htm" />
   <HelpKINode Title="InputSource.CoordinatesRemapper property" Url="html/P_TouchScript_InputSources_InputSource_CoordinatesRemapper.htm" />
   <HelpKINode Title="InputSource.endTouch method" Url="html/M_TouchScript_InputSources_InputSource_endTouch.htm" />
@@ -441,45 +422,17 @@
   <HelpKINode Title="InputSource.OnDisable method" Url="html/M_TouchScript_InputSources_InputSource_OnDisable.htm" />
   <HelpKINode Title="InputSource.OnEnable method" Url="html/M_TouchScript_InputSources_InputSource_OnEnable.htm" />
   <HelpKINode Title="InputSource.Update method" Url="html/M_TouchScript_InputSources_InputSource_Update.htm" />
-  <HelpKINode Title="InputSourcePro class">
-    <HelpKINode Title="InputSourcePro Class" Url="html/T_TouchScript_InputSources_InputSourcePro.htm" />
-    <HelpKINode Title="about InputSourcePro class" Url="html/T_TouchScript_InputSources_InputSourcePro.htm" />
-    <HelpKINode Title="constructor" Url="html/M_TouchScript_InputSources_InputSourcePro__ctor.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_TouchScript_InputSources_InputSourcePro.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_TouchScript_InputSources_InputSourcePro.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_TouchScript_InputSources_InputSourcePro.htm" />
+  <HelpKINode Title="INPUT_MOUSE field" Url="html/F_TouchScript_Tags_INPUT_MOUSE.htm" />
+  <HelpKINode Title="INPUT_OBJECT field" Url="html/F_TouchScript_Tags_INPUT_OBJECT.htm" />
+  <HelpKINode Title="INPUT_PEN field" Url="html/F_TouchScript_Tags_INPUT_PEN.htm" />
+  <HelpKINode Title="INPUT_TOUCH field" Url="html/F_TouchScript_Tags_INPUT_TOUCH.htm" />
+  <HelpKINode Title="Instance property">
+    <HelpKINode Title="TouchHitFactory.Instance Property " Url="html/P_TouchScript_Hit_TouchHitFactory_Instance.htm" />
+    <HelpKINode Title="TouchManager.Instance Property " Url="html/P_TouchScript_TouchManager_Instance.htm" />
   </HelpKINode>
-  <HelpKINode Title="InputSourcePro.beginTouch method" Url="html/M_TouchScript_InputSources_InputSourcePro_beginTouch.htm" />
-  <HelpKINode Title="InputSourcePro.cancelTouch method" Url="html/M_TouchScript_InputSources_InputSourcePro_cancelTouch.htm" />
-  <HelpKINode Title="InputSourcePro.CoordinatesRemapper property" Url="html/P_TouchScript_InputSources_InputSourcePro_CoordinatesRemapper.htm" />
-  <HelpKINode Title="InputSourcePro.endTouch method" Url="html/M_TouchScript_InputSources_InputSourcePro_endTouch.htm" />
-  <HelpKINode Title="InputSourcePro.InputSourcePro constructor" Url="html/M_TouchScript_InputSources_InputSourcePro__ctor.htm" />
-  <HelpKINode Title="InputSourcePro.manager field" Url="html/F_TouchScript_InputSources_InputSourcePro_manager.htm" />
-  <HelpKINode Title="InputSourcePro.moveTouch method" Url="html/M_TouchScript_InputSources_InputSourcePro_moveTouch.htm" />
-  <HelpKINode Title="InputSourcePro.OnDisable method" Url="html/M_TouchScript_InputSources_InputSourcePro_OnDisable.htm" />
-  <HelpKINode Title="InputSourcePro.OnEnable method" Url="html/M_TouchScript_InputSources_InputSourcePro_OnEnable.htm" />
-  <HelpKINode Title="InputSourcePro.Update method" Url="html/M_TouchScript_InputSources_InputSourcePro_Update.htm" />
-  <HelpKINode Title="InputSourceWindows class">
-    <HelpKINode Title="InputSourceWindows Class" Url="html/T_TouchScript_InputSources_InputSourceWindows.htm" />
-    <HelpKINode Title="about InputSourceWindows class" Url="html/T_TouchScript_InputSources_InputSourceWindows.htm" />
-    <HelpKINode Title="constructor" Url="html/M_TouchScript_InputSources_InputSourceWindows__ctor.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_TouchScript_InputSources_InputSourceWindows.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_TouchScript_InputSources_InputSourceWindows.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_TouchScript_InputSources_InputSourceWindows.htm" />
-  </HelpKINode>
-  <HelpKINode Title="InputSourceWindows.beginTouch method" Url="html/M_TouchScript_InputSources_InputSourceWindows_beginTouch.htm" />
-  <HelpKINode Title="InputSourceWindows.cancelTouch method" Url="html/M_TouchScript_InputSources_InputSourceWindows_cancelTouch.htm" />
-  <HelpKINode Title="InputSourceWindows.CoordinatesRemapper property" Url="html/P_TouchScript_InputSources_InputSourceWindows_CoordinatesRemapper.htm" />
-  <HelpKINode Title="InputSourceWindows.endTouch method" Url="html/M_TouchScript_InputSources_InputSourceWindows_endTouch.htm" />
-  <HelpKINode Title="InputSourceWindows.InputSourceWindows constructor" Url="html/M_TouchScript_InputSources_InputSourceWindows__ctor.htm" />
-  <HelpKINode Title="InputSourceWindows.manager field" Url="html/F_TouchScript_InputSources_InputSourceWindows_manager.htm" />
-  <HelpKINode Title="InputSourceWindows.moveTouch method" Url="html/M_TouchScript_InputSources_InputSourceWindows_moveTouch.htm" />
-  <HelpKINode Title="InputSourceWindows.OnDisable method" Url="html/M_TouchScript_InputSources_InputSourceWindows_OnDisable.htm" />
-  <HelpKINode Title="InputSourceWindows.OnEnable method" Url="html/M_TouchScript_InputSources_InputSourceWindows_OnEnable.htm" />
-  <HelpKINode Title="InputSourceWindows.Update method" Url="html/M_TouchScript_InputSources_InputSourceWindows_Update.htm" />
-  <HelpKINode Title="Instance property" Url="html/P_TouchScript_TouchManager_Instance.htm" />
   <HelpKINode Title="Invalidate method" Url="html/M_TouchScript_Clusters_Clusters_Invalidate.htm" />
   <HelpKINode Title="INVALID_POSITION field" Url="html/F_TouchScript_TouchManager_INVALID_POSITION.htm" />
+  <HelpKINode Title="IsFriendly method" Url="html/M_TouchScript_Gestures_Gesture_IsFriendly.htm" />
   <HelpKINode Title="IsHit method">
     <HelpKINode Title="HitTest.IsHit Method " Url="html/M_TouchScript_Hit_HitTest_IsHit.htm" />
     <HelpKINode Title="Untouchable.IsHit Method " Url="html/M_TouchScript_Hit_Untouchable_IsHit.htm" />
@@ -495,6 +448,8 @@
   <HelpKINode Title="ITouch.Layer property" Url="html/P_TouchScript_ITouch_Layer.htm" />
   <HelpKINode Title="ITouch.Position property" Url="html/P_TouchScript_ITouch_Position.htm" />
   <HelpKINode Title="ITouch.PreviousPosition property" Url="html/P_TouchScript_ITouch_PreviousPosition.htm" />
+  <HelpKINode Title="ITouch.Properties property" Url="html/P_TouchScript_ITouch_Properties.htm" />
+  <HelpKINode Title="ITouch.Tags property" Url="html/P_TouchScript_ITouch_Tags.htm" />
   <HelpKINode Title="ITouch.Target property" Url="html/P_TouchScript_ITouch_Target.htm" />
   <HelpKINode Title="ITouchHit interface">
     <HelpKINode Title="ITouchHit Interface" Url="html/T_TouchScript_Hit_ITouchHit.htm" />
@@ -528,7 +483,7 @@
   </HelpKINode>
   <HelpKINode Title="ITouchManager.ActiveTouches property" Url="html/P_TouchScript_ITouchManager_ActiveTouches.htm" />
   <HelpKINode Title="ITouchManager.AddLayer method" Url="html/Overload_TouchScript_ITouchManager_AddLayer.htm" />
-  <HelpKINode Title="ITouchManager.BeginTouch method" Url="html/M_TouchScript_ITouchManager_BeginTouch.htm" />
+  <HelpKINode Title="ITouchManager.BeginTouch method" Url="html/Overload_TouchScript_ITouchManager_BeginTouch.htm" />
   <HelpKINode Title="ITouchManager.CancelTouch method" Url="html/M_TouchScript_ITouchManager_CancelTouch.htm" />
   <HelpKINode Title="ITouchManager.ChangeLayerIndex method" Url="html/M_TouchScript_ITouchManager_ChangeLayerIndex.htm" />
   <HelpKINode Title="ITouchManager.DisplayDevice property" Url="html/P_TouchScript_ITouchManager_DisplayDevice.htm" />
@@ -576,11 +531,7 @@
   <HelpKINode Title="LongPressGesture.touchesEnded method" Url="html/M_TouchScript_Gestures_LongPressGesture_touchesEnded.htm" />
   <HelpKINode Title="LongPressGesture.touchesMoved method" Url="html/M_TouchScript_Gestures_LongPressGesture_touchesMoved.htm" />
   <HelpKINode Title="LONG_PRESS_MESSAGE field" Url="html/F_TouchScript_Gestures_LongPressGesture_LONG_PRESS_MESSAGE.htm" />
-  <HelpKINode Title="manager field">
-    <HelpKINode Title="InputSource.manager Field" Url="html/F_TouchScript_InputSources_InputSource_manager.htm" />
-    <HelpKINode Title="InputSourcePro.manager Field" Url="html/F_TouchScript_InputSources_InputSourcePro_manager.htm" />
-    <HelpKINode Title="InputSourceWindows.manager Field" Url="html/F_TouchScript_InputSources_InputSourceWindows_manager.htm" />
-  </HelpKINode>
+  <HelpKINode Title="manager field" Url="html/F_TouchScript_InputSources_InputSource_manager.htm" />
   <HelpKINode Title="MaxTouches property" Url="html/P_TouchScript_Gestures_LongPressGesture_MaxTouches.htm" />
   <HelpKINode Title="MetaGesture class">
     <HelpKINode Title="MetaGesture Class" Url="html/T_TouchScript_Gestures_MetaGesture.htm" />
@@ -634,10 +585,12 @@
     <HelpKINode Title="methods" Url="html/Methods_T_TouchScript_InputSources_MobileInput.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_TouchScript_InputSources_MobileInput.htm" />
   </HelpKINode>
+  <HelpKINode Title="MobileInput.beginTouch method" Url="html/Overload_TouchScript_InputSources_MobileInput_beginTouch.htm" />
   <HelpKINode Title="MobileInput.DisableOnNonTouchPlatforms field" Url="html/F_TouchScript_InputSources_MobileInput_DisableOnNonTouchPlatforms.htm" />
   <HelpKINode Title="MobileInput.MobileInput constructor" Url="html/M_TouchScript_InputSources_MobileInput__ctor.htm" />
   <HelpKINode Title="MobileInput.OnDisable method" Url="html/M_TouchScript_InputSources_MobileInput_OnDisable.htm" />
   <HelpKINode Title="MobileInput.OnEnable method" Url="html/M_TouchScript_InputSources_MobileInput_OnEnable.htm" />
+  <HelpKINode Title="MobileInput.Tags field" Url="html/F_TouchScript_InputSources_MobileInput_Tags.htm" />
   <HelpKINode Title="MobileInput.Update method" Url="html/M_TouchScript_InputSources_MobileInput_Update.htm" />
   <HelpKINode Title="MouseInput class">
     <HelpKINode Title="MouseInput Class" Url="html/T_TouchScript_InputSources_MouseInput.htm" />
@@ -647,11 +600,14 @@
     <HelpKINode Title="methods" Url="html/Methods_T_TouchScript_InputSources_MouseInput.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_TouchScript_InputSources_MouseInput.htm" />
   </HelpKINode>
+  <HelpKINode Title="MouseInput.beginTouch method" Url="html/Overload_TouchScript_InputSources_MouseInput_beginTouch.htm" />
   <HelpKINode Title="MouseInput.DisableOnMobilePlatforms field" Url="html/F_TouchScript_InputSources_MouseInput_DisableOnMobilePlatforms.htm" />
   <HelpKINode Title="MouseInput.MouseInput constructor" Url="html/M_TouchScript_InputSources_MouseInput__ctor.htm" />
   <HelpKINode Title="MouseInput.OnDisable method" Url="html/M_TouchScript_InputSources_MouseInput_OnDisable.htm" />
   <HelpKINode Title="MouseInput.OnEnable method" Url="html/M_TouchScript_InputSources_MouseInput_OnEnable.htm" />
+  <HelpKINode Title="MouseInput.Tags field" Url="html/F_TouchScript_InputSources_MouseInput_Tags.htm" />
   <HelpKINode Title="MouseInput.Update method" Url="html/M_TouchScript_InputSources_MouseInput_Update.htm" />
+  <HelpKINode Title="MouseTags field" Url="html/F_TouchScript_InputSources_Win8TouchInput_MouseTags.htm" />
   <HelpKINode Title="MovementThreshold field" Url="html/F_TouchScript_InputSources_TuioInput_MovementThreshold.htm" />
   <HelpKINode Title="MovementThreshold property">
     <HelpKINode Title="FlickGesture.MovementThreshold Property " Url="html/P_TouchScript_Gestures_FlickGesture_MovementThreshold.htm" />
@@ -660,18 +616,12 @@
   <HelpKINode Title="MoveTouch method" Url="html/M_TouchScript_ITouchManager_MoveTouch.htm" />
   <HelpKINode Title="moveTouch method">
     <HelpKINode Title="InputSource.moveTouch Method " Url="html/M_TouchScript_InputSources_InputSource_moveTouch.htm" />
-    <HelpKINode Title="InputSourcePro.moveTouch Method " Url="html/M_TouchScript_InputSources_InputSourcePro_moveTouch.htm" />
-    <HelpKINode Title="InputSourceWindows.moveTouch Method " Url="html/M_TouchScript_InputSources_InputSourceWindows_moveTouch.htm" />
     <HelpKINode Title="TouchLayer.moveTouch Method " Url="html/M_TouchScript_Layers_TouchLayer_moveTouch.htm" />
   </HelpKINode>
+  <HelpKINode Title="name field" Url="html/F_TouchScript_Devices_Display_DisplayDevice_name.htm" />
   <HelpKINode Title="Name field" Url="html/F_TouchScript_Layers_TouchLayer_Name.htm" />
-  <HelpKINode Title="name field">
-    <HelpKINode Title="DisplayDevice.name Field" Url="html/F_TouchScript_WindowsPhone_Devices_Display_DisplayDevice_name.htm" />
-    <HelpKINode Title="DisplayDevice.name Field" Url="html/F_TouchScript_Devices_Display_DisplayDevice_name.htm" />
-  </HelpKINode>
   <HelpKINode Title="Name property">
     <HelpKINode Title="DisplayDevice.Name Property " Url="html/P_TouchScript_Devices_Display_DisplayDevice_Name.htm" />
-    <HelpKINode Title="DisplayDevice.Name Property " Url="html/P_TouchScript_WindowsPhone_Devices_Display_DisplayDevice_Name.htm" />
     <HelpKINode Title="IDisplayDevice.Name Property " Url="html/P_TouchScript_Devices_Display_IDisplayDevice_Name.htm" />
   </HelpKINode>
   <HelpKINode Title="Normal property" Url="html/P_TouchScript_Hit_ITouchHit3D_Normal.htm" />
@@ -718,8 +668,6 @@
   <HelpKINode Title="OnDisable method">
     <HelpKINode Title="Gesture.OnDisable Method " Url="html/M_TouchScript_Gestures_Gesture_OnDisable.htm" />
     <HelpKINode Title="InputSource.OnDisable Method " Url="html/M_TouchScript_InputSources_InputSource_OnDisable.htm" />
-    <HelpKINode Title="InputSourcePro.OnDisable Method " Url="html/M_TouchScript_InputSources_InputSourcePro_OnDisable.htm" />
-    <HelpKINode Title="InputSourceWindows.OnDisable Method " Url="html/M_TouchScript_InputSources_InputSourceWindows_OnDisable.htm" />
     <HelpKINode Title="MobileInput.OnDisable Method " Url="html/M_TouchScript_InputSources_MobileInput_OnDisable.htm" />
     <HelpKINode Title="MouseInput.OnDisable Method " Url="html/M_TouchScript_InputSources_MouseInput_OnDisable.htm" />
     <HelpKINode Title="TuioInput.OnDisable Method " Url="html/M_TouchScript_InputSources_TuioInput_OnDisable.htm" />
@@ -728,12 +676,9 @@
   </HelpKINode>
   <HelpKINode Title="OnEnable method">
     <HelpKINode Title="DisplayDevice.OnEnable Method " Url="html/M_TouchScript_Devices_Display_DisplayDevice_OnEnable.htm" />
-    <HelpKINode Title="DisplayDevice.OnEnable Method " Url="html/M_TouchScript_WindowsPhone_Devices_Display_DisplayDevice_OnEnable.htm" />
     <HelpKINode Title="GenericDisplayDevice.OnEnable Method " Url="html/M_TouchScript_Devices_Display_GenericDisplayDevice_OnEnable.htm" />
     <HelpKINode Title="Gesture.OnEnable Method " Url="html/M_TouchScript_Gestures_Gesture_OnEnable.htm" />
     <HelpKINode Title="InputSource.OnEnable Method " Url="html/M_TouchScript_InputSources_InputSource_OnEnable.htm" />
-    <HelpKINode Title="InputSourcePro.OnEnable Method " Url="html/M_TouchScript_InputSources_InputSourcePro_OnEnable.htm" />
-    <HelpKINode Title="InputSourceWindows.OnEnable Method " Url="html/M_TouchScript_InputSources_InputSourceWindows_OnEnable.htm" />
     <HelpKINode Title="LongPressGesture.OnEnable Method " Url="html/M_TouchScript_Gestures_LongPressGesture_OnEnable.htm" />
     <HelpKINode Title="MobileInput.OnEnable Method " Url="html/M_TouchScript_InputSources_MobileInput_OnEnable.htm" />
     <HelpKINode Title="MouseInput.OnEnable Method " Url="html/M_TouchScript_InputSources_MouseInput_OnEnable.htm" />
@@ -745,7 +690,6 @@
     <HelpKINode Title="TwoPointTransform2DGestureBase.OnEnable Method " Url="html/M_TouchScript_Gestures_Simple_TwoPointTransform2DGestureBase_OnEnable.htm" />
     <HelpKINode Title="Win7TouchInput.OnEnable Method " Url="html/M_TouchScript_InputSources_Win7TouchInput_OnEnable.htm" />
     <HelpKINode Title="Win8TouchInput.OnEnable Method " Url="html/M_TouchScript_InputSources_Win8TouchInput_OnEnable.htm" />
-    <HelpKINode Title="WindowsPhoneDisplayDevice.OnEnable Method " Url="html/M_TouchScript_WindowsPhone_Devices_Display_WindowsPhoneDisplayDevice_OnEnable.htm" />
   </HelpKINode>
   <HelpKINode Title="onFailed method">
     <HelpKINode Title="Gesture.onFailed Method " Url="html/M_TouchScript_Gestures_Gesture_onFailed.htm" />
@@ -793,6 +737,7 @@
   <HelpKINode Title="PAN_COMPLETE_MESSAGE field" Url="html/F_TouchScript_Gestures_Simple_SimplePanGesture_PAN_COMPLETE_MESSAGE.htm" />
   <HelpKINode Title="PAN_MESSAGE field" Url="html/F_TouchScript_Gestures_Simple_SimplePanGesture_PAN_MESSAGE.htm" />
   <HelpKINode Title="PAN_START_MESSAGE field" Url="html/F_TouchScript_Gestures_Simple_SimplePanGesture_PAN_START_MESSAGE.htm" />
+  <HelpKINode Title="PenTags field" Url="html/F_TouchScript_InputSources_Win8TouchInput_PenTags.htm" />
   <HelpKINode Title="Point property">
     <HelpKINode Title="ITouchHit2D.Point Property " Url="html/P_TouchScript_Hit_ITouchHit2D_Point.htm" />
     <HelpKINode Title="ITouchHit3D.Point Property " Url="html/P_TouchScript_Hit_ITouchHit3D_Point.htm" />
@@ -843,6 +788,7 @@
     <HelpKINode Title="methods" Url="html/Methods_T_TouchScript_Utils_ProjectionUtils.htm" />
   </HelpKINode>
   <HelpKINode Title="ProjectionUtils.CameraToPlaneProjection method" Url="html/M_TouchScript_Utils_ProjectionUtils_CameraToPlaneProjection.htm" />
+  <HelpKINode Title="Properties property" Url="html/P_TouchScript_ITouch_Properties.htm" />
   <HelpKINode Title="Recognized enumeration member" Url="html/T_TouchScript_Gestures_Gesture_GestureState.htm" />
   <HelpKINode Title="Released event" Url="html/E_TouchScript_Gestures_ReleaseGesture_Released.htm" />
   <HelpKINode Title="ReleaseGesture class">
@@ -874,6 +820,7 @@
   <HelpKINode Title="RemoveLayer method" Url="html/M_TouchScript_ITouchManager_RemoveLayer.htm" />
   <HelpKINode Title="RemovePoint method" Url="html/M_TouchScript_Clusters_Clusters_RemovePoint.htm" />
   <HelpKINode Title="RemovePoints method" Url="html/M_TouchScript_Clusters_Clusters_RemovePoints.htm" />
+  <HelpKINode Title="RemoveTag method" Url="html/M_TouchScript_Tags_RemoveTag.htm" />
   <HelpKINode Title="RequireGestureToFail property" Url="html/P_TouchScript_Gestures_Gesture_RequireGestureToFail.htm" />
   <HelpKINode Title="reset method">
     <HelpKINode Title="FlickGesture.reset Method " Url="html/M_TouchScript_Gestures_FlickGesture_reset.htm" />
@@ -970,6 +917,7 @@
   <HelpKINode Title="SendStateChangeMessages property" Url="html/P_TouchScript_Gestures_Gesture_SendStateChangeMessages.htm" />
   <HelpKINode Title="setName method">
     <HelpKINode Title="CameraLayerBase.setName Method " Url="html/M_TouchScript_Layers_CameraLayerBase_setName.htm" />
+    <HelpKINode Title="FullscreenLayer.setName Method " Url="html/M_TouchScript_Layers_FullscreenLayer_setName.htm" />
     <HelpKINode Title="TouchLayer.setName Method " Url="html/M_TouchScript_Layers_TouchLayer_setName.htm" />
   </HelpKINode>
   <HelpKINode Title="setState method" Url="html/M_TouchScript_Gestures_Gesture_setState.htm" />
@@ -988,6 +936,8 @@
     <HelpKINode Title="ReleaseGesture.ShouldReceiveTouch Method " Url="html/M_TouchScript_Gestures_ReleaseGesture_ShouldReceiveTouch.htm" />
   </HelpKINode>
   <HelpKINode Title="ShouldRecognizeSimultaneously method" Url="html/M_TouchScript_IGestureDelegate_ShouldRecognizeSimultaneously.htm" />
+  <HelpKINode Title="ShowTags property" Url="html/P_TouchScript_Debugging_TouchDebugger_ShowTags.htm" />
+  <HelpKINode Title="ShowTouchId property" Url="html/P_TouchScript_Debugging_TouchDebugger_ShowTouchId.htm" />
   <HelpKINode Title="SimplePanGesture class">
     <HelpKINode Title="SimplePanGesture Class" Url="html/T_TouchScript_Gestures_Simple_SimplePanGesture.htm" />
     <HelpKINode Title="about SimplePanGesture class" Url="html/T_TouchScript_Gestures_Simple_SimplePanGesture.htm" />
@@ -1069,6 +1019,8 @@
   <HelpKINode Title="SimpleScaleGesture.ScalingThreshold property" Url="html/P_TouchScript_Gestures_Simple_SimpleScaleGesture_ScalingThreshold.htm" />
   <HelpKINode Title="SimpleScaleGesture.SimpleScaleGesture constructor" Url="html/M_TouchScript_Gestures_Simple_SimpleScaleGesture__ctor.htm" />
   <HelpKINode Title="SimpleScaleGesture.touchesMoved method" Url="html/M_TouchScript_Gestures_Simple_SimpleScaleGesture_touchesMoved.htm" />
+  <HelpKINode Title="SOURCE_TUIO field" Url="html/F_TouchScript_Tags_SOURCE_TUIO.htm" />
+  <HelpKINode Title="SOURCE_WINDOWS field" Url="html/F_TouchScript_Tags_SOURCE_WINDOWS.htm" />
   <HelpKINode Title="Speed field" Url="html/F_TouchScript_Behaviors_Transformer2D_Speed.htm" />
   <HelpKINode Title="State property">
     <HelpKINode Title="Gesture.State Property " Url="html/P_TouchScript_Gestures_Gesture_State.htm" />
@@ -1076,6 +1028,35 @@
   </HelpKINode>
   <HelpKINode Title="StateChanged event" Url="html/E_TouchScript_Gestures_Gesture_StateChanged.htm" />
   <HelpKINode Title="STATE_CHANGE_MESSAGE field" Url="html/F_TouchScript_Gestures_Gesture_STATE_CHANGE_MESSAGE.htm" />
+  <HelpKINode Title="TagList property" Url="html/P_TouchScript_Tags_TagList.htm" />
+  <HelpKINode Title="Tags class">
+    <HelpKINode Title="Tags Class" Url="html/T_TouchScript_Tags.htm" />
+    <HelpKINode Title="about Tags class" Url="html/T_TouchScript_Tags.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_TouchScript_Tags__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_TouchScript_Tags.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TouchScript_Tags.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_TouchScript_Tags.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Tags field">
+    <HelpKINode Title="MobileInput.Tags Field" Url="html/F_TouchScript_InputSources_MobileInput_Tags.htm" />
+    <HelpKINode Title="MouseInput.Tags Field" Url="html/F_TouchScript_InputSources_MouseInput_Tags.htm" />
+    <HelpKINode Title="TuioInput.Tags Field" Url="html/F_TouchScript_InputSources_TuioInput_Tags.htm" />
+    <HelpKINode Title="Win7TouchInput.Tags Field" Url="html/F_TouchScript_InputSources_Win7TouchInput_Tags.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Tags property" Url="html/P_TouchScript_ITouch_Tags.htm" />
+  <HelpKINode Title="Tags.AddTag method" Url="html/M_TouchScript_Tags_AddTag.htm" />
+  <HelpKINode Title="Tags.Count property" Url="html/P_TouchScript_Tags_Count.htm" />
+  <HelpKINode Title="Tags.HasTag method" Url="html/M_TouchScript_Tags_HasTag.htm" />
+  <HelpKINode Title="Tags.INPUT_MOUSE field" Url="html/F_TouchScript_Tags_INPUT_MOUSE.htm" />
+  <HelpKINode Title="Tags.INPUT_OBJECT field" Url="html/F_TouchScript_Tags_INPUT_OBJECT.htm" />
+  <HelpKINode Title="Tags.INPUT_PEN field" Url="html/F_TouchScript_Tags_INPUT_PEN.htm" />
+  <HelpKINode Title="Tags.INPUT_TOUCH field" Url="html/F_TouchScript_Tags_INPUT_TOUCH.htm" />
+  <HelpKINode Title="Tags.RemoveTag method" Url="html/M_TouchScript_Tags_RemoveTag.htm" />
+  <HelpKINode Title="Tags.SOURCE_TUIO field" Url="html/F_TouchScript_Tags_SOURCE_TUIO.htm" />
+  <HelpKINode Title="Tags.SOURCE_WINDOWS field" Url="html/F_TouchScript_Tags_SOURCE_WINDOWS.htm" />
+  <HelpKINode Title="Tags.TagList property" Url="html/P_TouchScript_Tags_TagList.htm" />
+  <HelpKINode Title="Tags.Tags constructor" Url="html/Overload_TouchScript_Tags__ctor.htm" />
+  <HelpKINode Title="Tags.ToString method" Url="html/M_TouchScript_Tags_ToString.htm" />
   <HelpKINode Title="TapGesture class">
     <HelpKINode Title="TapGesture Class" Url="html/T_TouchScript_Gestures_TapGesture.htm" />
     <HelpKINode Title="about TapGesture class" Url="html/T_TouchScript_Gestures_TapGesture.htm" />
@@ -1112,6 +1093,7 @@
     <HelpKINode Title="properties" Url="html/Properties_T_TouchScript_Utils_Editor_Attributes_ToggleLeftAttribute.htm" />
   </HelpKINode>
   <HelpKINode Title="ToggleLeftAttribute.ToggleLeftAttribute constructor" Url="html/M_TouchScript_Utils_Editor_Attributes_ToggleLeftAttribute__ctor.htm" />
+  <HelpKINode Title="ToString method" Url="html/M_TouchScript_Tags_ToString.htm" />
   <HelpKINode Title="Touch property">
     <HelpKINode Title="MetaGestureEventArgs.Touch Property " Url="html/P_TouchScript_Gestures_MetaGestureEventArgs_Touch.htm" />
     <HelpKINode Title="TouchLayerEventArgs.Touch Property " Url="html/P_TouchScript_Layers_TouchLayerEventArgs_Touch.htm" />
@@ -1128,6 +1110,9 @@
     <HelpKINode Title="methods" Url="html/Methods_T_TouchScript_Debugging_TouchDebugger.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_TouchScript_Debugging_TouchDebugger.htm" />
   </HelpKINode>
+  <HelpKINode Title="TouchDebugger.FontColor property" Url="html/P_TouchScript_Debugging_TouchDebugger_FontColor.htm" />
+  <HelpKINode Title="TouchDebugger.ShowTags property" Url="html/P_TouchScript_Debugging_TouchDebugger_ShowTags.htm" />
+  <HelpKINode Title="TouchDebugger.ShowTouchId property" Url="html/P_TouchScript_Debugging_TouchDebugger_ShowTouchId.htm" />
   <HelpKINode Title="TouchDebugger.TouchDebugger constructor" Url="html/M_TouchScript_Debugging_TouchDebugger__ctor.htm" />
   <HelpKINode Title="TouchDebugger.TouchSize property" Url="html/P_TouchScript_Debugging_TouchDebugger_TouchSize.htm" />
   <HelpKINode Title="TouchDebugger.TouchTexture property" Url="html/P_TouchScript_Debugging_TouchDebugger_TouchTexture.htm" />
@@ -1197,6 +1182,14 @@
   </HelpKINode>
   <HelpKINode Title="TouchEventArgs.Touches property" Url="html/P_TouchScript_TouchEventArgs_Touches.htm" />
   <HelpKINode Title="TouchEventArgs.TouchEventArgs constructor" Url="html/M_TouchScript_TouchEventArgs__ctor.htm" />
+  <HelpKINode Title="TouchHitFactory class">
+    <HelpKINode Title="TouchHitFactory Class" Url="html/T_TouchScript_Hit_TouchHitFactory.htm" />
+    <HelpKINode Title="about TouchHitFactory class" Url="html/T_TouchScript_Hit_TouchHitFactory.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_TouchScript_Hit_TouchHitFactory.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_TouchScript_Hit_TouchHitFactory.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TouchHitFactory.GetTouchHit method" Url="html/Overload_TouchScript_Hit_TouchHitFactory_GetTouchHit.htm" />
+  <HelpKINode Title="TouchHitFactory.Instance property" Url="html/P_TouchScript_Hit_TouchHitFactory_Instance.htm" />
   <HelpKINode Title="TouchLayer class">
     <HelpKINode Title="TouchLayer Class" Url="html/T_TouchScript_Layers_TouchLayer.htm" />
     <HelpKINode Title="about TouchLayer class" Url="html/T_TouchScript_Layers_TouchLayer.htm" />
@@ -1291,6 +1284,7 @@
   <HelpKINode Title="TouchScript.Hit.ITouchHit interface" Url="html/T_TouchScript_Hit_ITouchHit.htm" />
   <HelpKINode Title="TouchScript.Hit.ITouchHit2D interface" Url="html/T_TouchScript_Hit_ITouchHit2D.htm" />
   <HelpKINode Title="TouchScript.Hit.ITouchHit3D interface" Url="html/T_TouchScript_Hit_ITouchHit3D.htm" />
+  <HelpKINode Title="TouchScript.Hit.TouchHitFactory class" Url="html/T_TouchScript_Hit_TouchHitFactory.htm" />
   <HelpKINode Title="TouchScript.Hit.Untouchable class" Url="html/T_TouchScript_Hit_Untouchable.htm" />
   <HelpKINode Title="TouchScript.IGestureDelegate interface" Url="html/T_TouchScript_IGestureDelegate.htm" />
   <HelpKINode Title="TouchScript.IGestureManager interface" Url="html/T_TouchScript_IGestureManager.htm" />
@@ -1298,8 +1292,6 @@
   <HelpKINode Title="TouchScript.InputSources.ICoordinatesRemapper interface" Url="html/T_TouchScript_InputSources_ICoordinatesRemapper.htm" />
   <HelpKINode Title="TouchScript.InputSources.IInputSource interface" Url="html/T_TouchScript_InputSources_IInputSource.htm" />
   <HelpKINode Title="TouchScript.InputSources.InputSource class" Url="html/T_TouchScript_InputSources_InputSource.htm" />
-  <HelpKINode Title="TouchScript.InputSources.InputSourcePro class" Url="html/T_TouchScript_InputSources_InputSourcePro.htm" />
-  <HelpKINode Title="TouchScript.InputSources.InputSourceWindows class" Url="html/T_TouchScript_InputSources_InputSourceWindows.htm" />
   <HelpKINode Title="TouchScript.InputSources.MobileInput class" Url="html/T_TouchScript_InputSources_MobileInput.htm" />
   <HelpKINode Title="TouchScript.InputSources.MouseInput class" Url="html/T_TouchScript_InputSources_MouseInput.htm" />
   <HelpKINode Title="TouchScript.InputSources.TuioInput class" Url="html/T_TouchScript_InputSources_TuioInput.htm" />
@@ -1311,9 +1303,11 @@
   <HelpKINode Title="TouchScript.Layers.CameraLayer class" Url="html/T_TouchScript_Layers_CameraLayer.htm" />
   <HelpKINode Title="TouchScript.Layers.CameraLayer2D class" Url="html/T_TouchScript_Layers_CameraLayer2D.htm" />
   <HelpKINode Title="TouchScript.Layers.CameraLayerBase class" Url="html/T_TouchScript_Layers_CameraLayerBase.htm" />
+  <HelpKINode Title="TouchScript.Layers.FullscreenLayer class" Url="html/T_TouchScript_Layers_FullscreenLayer.htm" />
   <HelpKINode Title="TouchScript.Layers.TouchLayer class" Url="html/T_TouchScript_Layers_TouchLayer.htm" />
   <HelpKINode Title="TouchScript.Layers.TouchLayer.LayerHitResult enumeration" Url="html/T_TouchScript_Layers_TouchLayer_LayerHitResult.htm" />
   <HelpKINode Title="TouchScript.Layers.TouchLayerEventArgs class" Url="html/T_TouchScript_Layers_TouchLayerEventArgs.htm" />
+  <HelpKINode Title="TouchScript.Tags class" Url="html/T_TouchScript_Tags.htm" />
   <HelpKINode Title="TouchScript.TouchEventArgs class" Url="html/T_TouchScript_TouchEventArgs.htm" />
   <HelpKINode Title="TouchScript.TouchManager class" Url="html/T_TouchScript_TouchManager.htm" />
   <HelpKINode Title="TouchScript.TouchManager.MessageName enumeration" Url="html/T_TouchScript_TouchManager_MessageName.htm" />
@@ -1324,13 +1318,8 @@
   <HelpKINode Title="TouchScript.Utils.Editor.Attributes.NullToggleAttribute class" Url="html/T_TouchScript_Utils_Editor_Attributes_NullToggleAttribute.htm" />
   <HelpKINode Title="TouchScript.Utils.Editor.Attributes.ToggleLeftAttribute class" Url="html/T_TouchScript_Utils_Editor_Attributes_ToggleLeftAttribute.htm" />
   <HelpKINode Title="TouchScript.Utils.ProjectionUtils class" Url="html/T_TouchScript_Utils_ProjectionUtils.htm" />
-  <HelpKINode Title="TouchScript.WindowsPhone namespace" Url="html/N_TouchScript_WindowsPhone.htm" />
-  <HelpKINode Title="TouchScript.WindowsPhone.Devices.Display namespace" Url="html/N_TouchScript_WindowsPhone_Devices_Display.htm" />
-  <HelpKINode Title="TouchScript.WindowsPhone.Devices.Display.DisplayDevice class" Url="html/T_TouchScript_WindowsPhone_Devices_Display_DisplayDevice.htm" />
-  <HelpKINode Title="TouchScript.WindowsPhone.Devices.Display.WindowsPhoneDisplayDevice class" Url="html/T_TouchScript_WindowsPhone_Devices_Display_WindowsPhoneDisplayDevice.htm" />
-  <HelpKINode Title="TouchScript.WindowsPhone.WP8Utils class" Url="html/T_TouchScript_WindowsPhone_WP8Utils.htm" />
-  <HelpKINode Title="TouchScript.WindowsPhone.WP8Utils.Resolutions enumeration" Url="html/T_TouchScript_WindowsPhone_WP8Utils_Resolutions.htm" />
   <HelpKINode Title="TouchSize property" Url="html/P_TouchScript_Debugging_TouchDebugger_TouchSize.htm" />
+  <HelpKINode Title="TouchTags field" Url="html/F_TouchScript_InputSources_Win8TouchInput_TouchTags.htm" />
   <HelpKINode Title="TouchTexture property" Url="html/P_TouchScript_Debugging_TouchDebugger_TouchTexture.htm" />
   <HelpKINode Title="TOUCH_BEGAN_MESSAGE field" Url="html/F_TouchScript_Gestures_MetaGesture_TOUCH_BEGAN_MESSAGE.htm" />
   <HelpKINode Title="TOUCH_CANCELLED_MESSAGE field" Url="html/F_TouchScript_Gestures_MetaGesture_TOUCH_CANCELLED_MESSAGE.htm" />
@@ -1384,6 +1373,7 @@
   <HelpKINode Title="TuioInput.MovementThreshold field" Url="html/F_TouchScript_InputSources_TuioInput_MovementThreshold.htm" />
   <HelpKINode Title="TuioInput.OnDisable method" Url="html/M_TouchScript_InputSources_TuioInput_OnDisable.htm" />
   <HelpKINode Title="TuioInput.OnEnable method" Url="html/M_TouchScript_InputSources_TuioInput_OnEnable.htm" />
+  <HelpKINode Title="TuioInput.Tags field" Url="html/F_TouchScript_InputSources_TuioInput_Tags.htm" />
   <HelpKINode Title="TuioInput.TuioInput constructor" Url="html/M_TouchScript_InputSources_TuioInput__ctor.htm" />
   <HelpKINode Title="TuioInput.TuioPort field" Url="html/F_TouchScript_InputSources_TuioInput_TuioPort.htm" />
   <HelpKINode Title="TuioInput.Update method" Url="html/M_TouchScript_InputSources_TuioInput_Update.htm" />
@@ -1427,8 +1417,6 @@
   <HelpKINode Title="Untouchable.Untouchable constructor" Url="html/M_TouchScript_Hit_Untouchable__ctor.htm" />
   <HelpKINode Title="Update method">
     <HelpKINode Title="InputSource.Update Method " Url="html/M_TouchScript_InputSources_InputSource_Update.htm" />
-    <HelpKINode Title="InputSourcePro.Update Method " Url="html/M_TouchScript_InputSources_InputSourcePro_Update.htm" />
-    <HelpKINode Title="InputSourceWindows.Update Method " Url="html/M_TouchScript_InputSources_InputSourceWindows_Update.htm" />
     <HelpKINode Title="MobileInput.Update Method " Url="html/M_TouchScript_InputSources_MobileInput_Update.htm" />
     <HelpKINode Title="MouseInput.Update Method " Url="html/M_TouchScript_InputSources_MouseInput_Update.htm" />
     <HelpKINode Title="TuioInput.Update Method " Url="html/M_TouchScript_InputSources_TuioInput_Update.htm" />
@@ -1451,6 +1439,7 @@
   <HelpKINode Title="Win7TouchInput.DisableMouseInputInBuilds field" Url="html/F_TouchScript_InputSources_Win7TouchInput_DisableMouseInputInBuilds.htm" />
   <HelpKINode Title="Win7TouchInput.OnDisable method" Url="html/M_TouchScript_InputSources_Win7TouchInput_OnDisable.htm" />
   <HelpKINode Title="Win7TouchInput.OnEnable method" Url="html/M_TouchScript_InputSources_Win7TouchInput_OnEnable.htm" />
+  <HelpKINode Title="Win7TouchInput.Tags field" Url="html/F_TouchScript_InputSources_Win7TouchInput_Tags.htm" />
   <HelpKINode Title="Win7TouchInput.Win7TouchInput constructor" Url="html/M_TouchScript_InputSources_Win7TouchInput__ctor.htm" />
   <HelpKINode Title="Win8TouchInput class">
     <HelpKINode Title="Win8TouchInput Class" Url="html/T_TouchScript_InputSources_Win8TouchInput.htm" />
@@ -1460,34 +1449,14 @@
     <HelpKINode Title="methods" Url="html/Methods_T_TouchScript_InputSources_Win8TouchInput.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_TouchScript_InputSources_Win8TouchInput.htm" />
   </HelpKINode>
+  <HelpKINode Title="Win8TouchInput.MouseTags field" Url="html/F_TouchScript_InputSources_Win8TouchInput_MouseTags.htm" />
   <HelpKINode Title="Win8TouchInput.OnDisable method" Url="html/M_TouchScript_InputSources_Win8TouchInput_OnDisable.htm" />
   <HelpKINode Title="Win8TouchInput.OnEnable method" Url="html/M_TouchScript_InputSources_Win8TouchInput_OnEnable.htm" />
+  <HelpKINode Title="Win8TouchInput.PenTags field" Url="html/F_TouchScript_InputSources_Win8TouchInput_PenTags.htm" />
+  <HelpKINode Title="Win8TouchInput.TouchTags field" Url="html/F_TouchScript_InputSources_Win8TouchInput_TouchTags.htm" />
   <HelpKINode Title="Win8TouchInput.Win8TouchInput constructor" Url="html/M_TouchScript_InputSources_Win8TouchInput__ctor.htm" />
-  <HelpKINode Title="WindowsPhoneDisplayDevice class">
-    <HelpKINode Title="WindowsPhoneDisplayDevice Class" Url="html/T_TouchScript_WindowsPhone_Devices_Display_WindowsPhoneDisplayDevice.htm" />
-    <HelpKINode Title="about WindowsPhoneDisplayDevice class" Url="html/T_TouchScript_WindowsPhone_Devices_Display_WindowsPhoneDisplayDevice.htm" />
-    <HelpKINode Title="constructor" Url="html/M_TouchScript_WindowsPhone_Devices_Display_WindowsPhoneDisplayDevice__ctor.htm" />
-    <HelpKINode Title="fields" Url="html/Fields_T_TouchScript_WindowsPhone_Devices_Display_WindowsPhoneDisplayDevice.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_TouchScript_WindowsPhone_Devices_Display_WindowsPhoneDisplayDevice.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_TouchScript_WindowsPhone_Devices_Display_WindowsPhoneDisplayDevice.htm" />
-  </HelpKINode>
-  <HelpKINode Title="WindowsPhoneDisplayDevice.OnEnable method" Url="html/M_TouchScript_WindowsPhone_Devices_Display_WindowsPhoneDisplayDevice_OnEnable.htm" />
-  <HelpKINode Title="WindowsPhoneDisplayDevice.WindowsPhoneDisplayDevice constructor" Url="html/M_TouchScript_WindowsPhone_Devices_Display_WindowsPhoneDisplayDevice__ctor.htm" />
   <HelpKINode Title="WorldDeltaPosition property" Url="html/P_TouchScript_Gestures_Simple_SimplePanGesture_WorldDeltaPosition.htm" />
   <HelpKINode Title="WorldTransformCenter property" Url="html/P_TouchScript_Gestures_Simple_Transform2DGestureBase_WorldTransformCenter.htm" />
   <HelpKINode Title="worldTransformPlane field" Url="html/F_TouchScript_Gestures_Simple_Transform2DGestureBase_worldTransformPlane.htm" />
   <HelpKINode Title="WorldTransformPlane property" Url="html/P_TouchScript_Gestures_Simple_Transform2DGestureBase_WorldTransformPlane.htm" />
-  <HelpKINode Title="WP8Utils class">
-    <HelpKINode Title="WP8Utils Class" Url="html/T_TouchScript_WindowsPhone_WP8Utils.htm" />
-    <HelpKINode Title="about WP8Utils class" Url="html/T_TouchScript_WindowsPhone_WP8Utils.htm" />
-    <HelpKINode Title="constructor" Url="html/M_TouchScript_WindowsPhone_WP8Utils__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_TouchScript_WindowsPhone_WP8Utils.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_TouchScript_WindowsPhone_WP8Utils.htm" />
-  </HelpKINode>
-  <HelpKINode Title="WP8Utils.CurrentResolution property" Url="html/P_TouchScript_WindowsPhone_WP8Utils_CurrentResolution.htm" />
-  <HelpKINode Title="WP8Utils.GetExtendedScreenInfo method" Url="html/M_TouchScript_WindowsPhone_WP8Utils_GetExtendedScreenInfo.htm" />
-  <HelpKINode Title="WP8Utils.Resolutions enumeration" Url="html/T_TouchScript_WindowsPhone_WP8Utils_Resolutions.htm" />
-  <HelpKINode Title="WP8Utils.WP8Utils constructor" Url="html/M_TouchScript_WindowsPhone_WP8Utils__ctor.htm" />
-  <HelpKINode Title="WVGA enumeration member" Url="html/T_TouchScript_WindowsPhone_WP8Utils_Resolutions.htm" />
-  <HelpKINode Title="WXGA enumeration member" Url="html/T_TouchScript_WindowsPhone_WP8Utils_Resolutions.htm" />
 </HelpKI>
